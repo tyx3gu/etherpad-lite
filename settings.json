@@ -8,7 +8,7 @@
 */
 {
   // Name your instance!
-  "title": "Etherpad",
+  "title": "CoCoder",
 
   // favicon default name
   // alternatively, set up a fully specified Url to your own favicon
@@ -93,6 +93,7 @@
      may cause problems during deployment. Set to 0 to disable caching */
   "maxAge" : 0, // 60 * 60 * 6 = 6 hours
 
+
   /* This is the absolute path to the Abiword executable. Setting it to null, disables abiword.
      Abiword is needed to advanced import/export features of pads*/
   "abiword" : null,
@@ -123,7 +124,11 @@
 
   /* Users for basic authentication. is_admin = true gives access to /admin.
      If you do not uncomment this, /admin will not be available! */
+<<<<<<< HEAD
   
+=======
+  /*
+>>>>>>> ca7eb0831b02a5c1d8865ffc87428d44f7bcc664
   "users": {
     "admin": {
       "password": "changeme1",
@@ -134,7 +139,11 @@
       "is_admin": false
     }
   },
+<<<<<<< HEAD
   
+=======
+  */
+>>>>>>> ca7eb0831b02a5c1d8865ffc87428d44f7bcc664
 
   // restrict socket.io transport methods
   "socketTransportProtocols" : ["xhr-polling", "jsonp-polling", "htmlfile"],
