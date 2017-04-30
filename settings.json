@@ -124,11 +124,6 @@
 
   /* Users for basic authentication. is_admin = true gives access to /admin.
      If you do not uncomment this, /admin will not be available! */
-<<<<<<< HEAD
-  
-=======
-  /*
->>>>>>> ca7eb0831b02a5c1d8865ffc87428d44f7bcc664
   "users": {
     "admin": {
       "password": "changeme1",
@@ -139,11 +134,6 @@
       "is_admin": false
     }
   },
-<<<<<<< HEAD
-  
-=======
-  */
->>>>>>> ca7eb0831b02a5c1d8865ffc87428d44f7bcc664
 
   // restrict socket.io transport methods
   "socketTransportProtocols" : ["xhr-polling", "jsonp-polling", "htmlfile"],
